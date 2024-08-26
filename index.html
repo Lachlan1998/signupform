@@ -6,11 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container">
+        <div class="image">
+
+            <img src="./sir-simo-uAez68B-t3M-unsplash.jpg" id="img">
+            <div id="box">
+                <img src="./odin-lined.png" id="odin">
+            </div>
+        </div>
+
+        <div class="formarea">
+            <div id="header">
+                <h2>Sign up to your local Koga-Ryu today! Hunt down rogue samurai, criminals and betrayers of the
+                    Shogun!</h1>
+            </div>
+            <div id="form">
+                <h3>Let's do this!</h3>
+                <div class="formtwo">
+                    <form action="#" method="post">
+                        <div>
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" id="firstname">
+
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" id="lastname">
+
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
 
 
+                        </div>
+                        <div>
+                            <label for="phnumber">PHONE NUMBER</label>
+                            <input type="number" id="phnumber" name="phnumber">
+
+                            <label for="email">EMAIL ADDRESS</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                            <label for="confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm" name="confirm" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="footer">
+                <button>Sign up</button>
+                <h4>Already have an account? Log in</h4>
+            </div>
+        </div>
+    </div>
     <script src="./java.js"></script>
 </body>
 
